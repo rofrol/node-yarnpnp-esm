@@ -83,6 +83,7 @@ EOT
 - Yeah, we're using it at a fairly large scale at Uber. Our monorepo has about 1000 local packages in it and depends on thousands more libraries from NPM. https://www.reddit.com/r/javascript/comments/qfknkk/comment/hi0dtmg/
 - typescript setup with webpack https://stackoverflow.com/questions/69325144/compiling-typescript-with-dependencies-installed-with-yarn/69784550#69784550
 - ts-node https://github.com/nodejs/loaders/issues/56
+- Using ESM, TypeScript and no babel https://github.com/jason-henriksen/typescript-with-esm-no-babel-boilerplate
 - make yarn fallback to the filesystem using `link:protocol` https://stackoverflow.com/questions/69010298/yarn-pnp-fallback-to-default-require
 - https://www.linkedin.com/pulse/yarn-3-vs-npm-8-dev-teams-2022-alex-alksne/
 - VSCode https://psidium.github.io/lerna/monorepo/yarn/nodejs/pnp/zero-install/2021/08/23/migrating-a-monorepo-from-lerna-to-yarn-3.html
