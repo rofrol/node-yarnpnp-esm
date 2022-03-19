@@ -1,0 +1,7 @@
+{
+  "name": "node-yarnpnp-esm",
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
+}
