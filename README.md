@@ -2,7 +2,7 @@
 
 ## Run
 
-`yarn node index.mjs`
+`yarn node index.js` or `yarn start`
 
 ## Step-by-step
 
@@ -88,3 +88,4 @@ EOT
 - VSCode https://psidium.github.io/lerna/monorepo/yarn/nodejs/pnp/zero-install/2021/08/23/migrating-a-monorepo-from-lerna-to-yarn-3.html
 - `npx create-react-app your-app-name --use-pnp` https://medium.com/free-code-camp/getting-rid-of-node-modules-with-yarn-plugn-play-a490e5e747d7
 - you can disable PnP setting nodeLinker: node-modules in your .yarnrc.yml file https://github.com/yarnpkg/berry/issues/638#issuecomment-895497626
+- adding `"type": "module"` to package.json allows using `.js` extension instead of `.mjs`.
